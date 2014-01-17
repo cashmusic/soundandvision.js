@@ -393,7 +393,7 @@
 
 		self._doFinish = function(detail) {
 			self._updateStyles(self.styleDivs,'finish');
-			self.next();
+			self.next(self.playlist && self.playlist.id);
 			window.cashmusic.events.fire(window.cashmusic, "soundplayerFinish", {
 				soundId: self.sound.id
 			});
