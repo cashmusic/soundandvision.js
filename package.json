@@ -1,0 +1,15 @@
+{
+  "name": "cashmusic.js",
+  "version": "1.0.0",
+  "description": "JavaScript library providing video lightboxes, audio player (via SM2), and element tweening based on audio progress. Also CASH Music embeds.",
+  "main": "index.js",
+  "repository": "git@github.com:cashmusic/cashmusic.js.git",
+  "author": "CASH Music <info@cashmusic.org>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "pump": "^3.0.0"
+  }
+}
